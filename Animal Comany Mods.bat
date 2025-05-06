@@ -8,7 +8,7 @@ echo          Animal Company Hacks
 echo ======================================
 :password
 set /p PASSWORD=Enter Password: 
-if NOT %PASSWORD%==Ilovenia goto incorrect
+if NOT %PASSWORD%=="Remove "" and put the password of your choice" goto incorrect
 
 echo.
 echo Password accepted. Proceeding...
